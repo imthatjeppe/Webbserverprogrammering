@@ -1,3 +1,4 @@
+<?php
 	$adress = "localhost";
 	$user = "root";
 	$password = "";
@@ -8,8 +9,15 @@
 	$fullname = $_POST['fullname'];
 	$password = $_POST['Password'];
 
-	$insert = "insert into registrering (fullname, pass) VALUES ('$username','$password');";
+	$insert = "Select from reg(Username, Password) VALUES ('$fullname','$password');";
 	
-	mysqli_query($dbc, $insert);
+	if (mysqli_query($dbc, $insert)){
 
-	$echo Succesfully logged in!
+	echo "Succesfully logged in!";
+	
+	
+	}
+	else{
+		echo "Something went wrong";
+	}
+?>
