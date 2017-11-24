@@ -9,9 +9,9 @@
 	$fullname = $_POST['fullname'];
 	$password = $_POST['Password'];
 
-	$insert = "Select from reg(Username, Password) VALUES ('$fullname','$password');";
+	$Select = "Select * from registrering where fullname = '$fullname' and pass = '$password';";
 	
-	if (mysqli_query($dbc, $insert)){
+	if (mysqli_query($dbc, $Select)){
 
 	echo "Succesfully logged in!";
 	
