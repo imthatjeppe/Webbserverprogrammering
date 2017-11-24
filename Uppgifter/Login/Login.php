@@ -3,7 +3,7 @@
 
 
 	<head>
-		<link href="Submit.php" rel="stylesheet">
+		
 		
 		<style>
 			

@@ -5,8 +5,11 @@
 	
 	$dbc = mysqli_connect($adress, $user, $password, $database);
 
-	$fullname = $_POST['fullname']
+	$fullname = $_POST['fullname'];
 	$password = $_POST['Password'];
 
 	$insert = "insert into registrering (fullname, pass) VALUES ('$username','$password');";
+	
+	mysqli_query($dbc, $insert);
 
+	$echo Succesfully logged in!
