@@ -3,9 +3,10 @@
 
 
 	<head>
-	
-		<style>
+		<link href="Submit.php" rel="stylesheet">
 		
+		<style>
+			
 		
 		
 		
@@ -21,10 +22,10 @@
 	
 	<body>
 	
+		<form method="POST" action="submit.php">
 	
 	
-	
-	
+	21414
 	</body>
 
 
