@@ -9,9 +9,11 @@
 	$fullname = $_POST['fullname'];
 	$password = $_POST['Password'];
 
-	$Select = "Select * from registrering where fullname = '$fullname' and pass = '$password';";
+	$query = "Select * from registrering where fullname = '$fullname' and pass = '$password';";
 	
-	if (mysqli_query($dbc, $Select)){
+	$result = mysqli_query($dbc, $query);
+	
+	if (mysqli_fetch_array($result)){
 
 	echo "Succesfully logged in!";
 	
