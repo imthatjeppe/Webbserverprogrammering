@@ -16,7 +16,8 @@
 			}
 			
 			#Submit{
-			margin-left: 5px;
+			margin-left: 37.5%;
+			margin-top: 25%;
 			
 			
 			}
@@ -27,7 +28,8 @@
 		
 				
 			}
-	
+			
+
 		
 		
 		
@@ -46,13 +48,13 @@
 		<div id="Låda">
 			<div id="Submit">
 				<form method="POST" action="Submit.php">
-				<label><b>Name</b></label><br>
-				<div id="Namn"><input type="text" placeholder="Write fullname" name="fullname" required><br></div>
+				<label><b>Username</b></label><br>
+				<div id="Namn"><input type="text" placeholder="Write Username" name="fullname" required><br></div>
 				<label><b>Password</b></label><br>
 				<input type="Password" placeholder="Password" name="Password" required><br>
 				<div class="Knappar"><br>
 				<button type="submit" class="signinbtn">Sign in</button>
-				<button type="button"  class="cancelbtn">Cancel</button>
+				<button type="reset"  class="cancelbtn">Cancel</button>
 			</div>
 		</div>
 	</body>
