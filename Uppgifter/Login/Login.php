@@ -13,11 +13,13 @@
 			background-color: lightblue;
 			border: 2px solid #000;
 			margin-left: 440px;
+			font-size:28px;
 			}
 			
 			#Submit{
 			margin-left: 37.5%;
 			margin-top: 25%;
+			
 			
 			
 			}
@@ -29,9 +31,14 @@
 				
 			}
 			
-
-		
-		
+			.button{
+			display: inline-block;
+			border-radius: 5px;
+			background-color:orange;
+			border:none;
+			color:#FFFFFF;
+			text-align:center;
+			font-size:20px;
 		
 		</style>
 	
@@ -52,9 +59,8 @@
 				<div id="Namn"><input type="text" placeholder="Write Username" name="fullname" required><br></div>
 				<label><b>Password</b></label><br>
 				<input type="Password" placeholder="Password" name="Password" required><br>
-				<div class="Knappar"><br>
-				<button type="submit" class="signinbtn">Sign in</button>
-				<button type="reset"  class="cancelbtn">Cancel</button>
+				<br>
+				<button class="button" style="vertical-align:middle"> <span>Sign in</span></button>
 			</div>
 		</div>
 	</body>
