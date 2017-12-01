@@ -8,17 +8,17 @@
 		<style>
 			
 			#Låda{
-			width:720px;
-			height:500px;
+			width:300px;
+			height:300px;
 			background-color: lightblue;
 			border: 2px solid #000;
-			margin-left: 440px;
+			margin:auto;
 			font-size:28px;
 			
 			}
 			
 			#Submit{
-			margin-left: 37.5%;
+			margin-left: 20%;
 			margin-top: 5%;
 			
 			
@@ -71,6 +71,8 @@
 			.button:hover span:after{
 			opacity: 1;
 			right:0;
+			
+			}
 			
 		</style>
 	
